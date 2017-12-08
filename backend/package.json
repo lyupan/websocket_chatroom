@@ -1,0 +1,19 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "websocket-chatroom-lp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "mocha --opts mocha.opts ./src/*.spec.js --reporter mocha-junit-reporter",
+    "test:watch": "npm run test -- -w"
+  },
+  "author": "",
+  "dependencies": {
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "url": "^0.11.0",
+    "ws": "^3.3.2"
+  }
+}

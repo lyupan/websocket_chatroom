@@ -1,0 +1,11 @@
+.chatroom {
+	border: 5px solid green;
+	margin: 10px;
+	height:300px;
+  	overflow-y:scroll;
+  	width:100%;
+}
+
+.mymsg {
+	float:right;
+}
